@@ -55,4 +55,5 @@ select * from tb_produtos where preco between 3.00 and 60.00;
 select * from tb_produtos where nome like "%b%";
 
 -- Juntando as tabela categoria e produto
-select * from tb_produto inner join tb_categoria on tb_categoria.id = tb_produto.categoria_id where tb_categoria.departamento = "departamento";
+select * from tb_produto inner join tb_categoria on 
+tb_categoria.id = tb_produto.categoria_id where tb_categoria.departamento = "departamento";
